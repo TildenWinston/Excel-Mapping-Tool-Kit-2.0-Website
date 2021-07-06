@@ -1,6 +1,11 @@
 ---
 title: home
 my_variable: home.md
+published: true
+---
+---
+title: home
+my_variable: home.md
 ---
 
 ## Inspiration
