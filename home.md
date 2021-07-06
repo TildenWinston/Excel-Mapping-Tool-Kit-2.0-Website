@@ -1,3 +1,8 @@
+---
+title: home
+my_variable: home.md
+---
+
 ## Inspiration
 Recently I have been having to deal with map related data I found I was sorely missing a way to calculate distances and travel times between locations from within Excel. 
 
@@ -107,4 +112,4 @@ https://devpost.com/software/excel-mapping-tool-kit
 ## Resources & References
 * https://stackoverflow.com/questions/218181/how-can-i-url-encode-a-string-in-excel-vba
 * https://stackoverflow.com/questions/15940047/passing-a-range-to-excel-user-defined-function-and-assigning-it-to-an-array
-* 
+*
