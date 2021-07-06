@@ -2,6 +2,10 @@
 layout: default
 published: true
 ---
+---
+title: index
+home: {% include home.md %}
+---
 
 <div class="posts">
   {% for post in site.posts %}
@@ -22,7 +26,7 @@ published: true
   <h1>v7 {{ post.title }}</h1>
 
   <div class="entry">
-    {{{% include home.md %} | markdownify}}
+    {{page.home | markdownify}}
   </div>
 
   <div class="date">
