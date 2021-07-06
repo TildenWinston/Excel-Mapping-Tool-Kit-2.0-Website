@@ -22,7 +22,7 @@ published: true
   <h1>v1 {{ post.title }}</h1>
 
   <div class="entry">
-    {{ ./home.md | markdownify }}
+    {{ {% include home.md %}  | markdownify }}
     
     
     ## Inspiration
