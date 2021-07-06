@@ -19,10 +19,10 @@ published: true
 </div>
 
 <article class="post">
-  <h1>{{ site.posts }}</h1>
+  <h1>{{ post.title }}</h1>
 
   <div class="entry">
-    {{ post.content }}
+    {{ home.md | markdownify }}
   </div>
 
   <div class="date">
