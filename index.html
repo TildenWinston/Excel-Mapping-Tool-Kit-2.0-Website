@@ -18,27 +18,14 @@ layout: default
 </div>
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
+  <h1>{{ post.title }}</h1>
 
   <div class="entry">
-    {{ ## Inspiration
-Recently I have been having to deal with map related data I found I was sorely missing a way to calculate distances and travel times between locations from within Excel. 
-
-I have been searching for apartments and I wanted a function that could take the apartment address and calculate the commute time to work or the walking time to the nearest bus stop.
-
-Similarly, I have been planning a long, multi-day trip and would like a function that would help me gauge if driving between two locations in a day is feasible.
-
-## What it does
-**mapDistance**
-
-Input: Origin, Destination, API Key
-
-mapDistance was the original function. It takes the two addresses and uses the Google directions API to get directions and other information. All that this function is interested in is the route distance. The route distance text version, which is already nicely formatted and includes units is returned as a string.
- }}
+    {{ post.content }}
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Written on {{ post.date | date: "%B %e, %Y" }}
   </div>
 
 </article>
