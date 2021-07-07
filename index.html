@@ -23,10 +23,10 @@ home: {% include home.md %}
 </div>
 
 <article class="post">
-  <h1>v11{{ post.title }}</h1>
+  <h1>v12{{ post.title }}</h1>
 
   <div class="entry">
-    {{"{{page.home}}" | markdownify}}
+    {{"{include home.rd}" | markdownify}}
   </div>
   
   
